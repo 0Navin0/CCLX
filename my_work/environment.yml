@@ -1,0 +1,22 @@
+name: dp2_smhm
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - astropy
+  - cmasher
+  - corner
+  - git
+  - ipdb
+  - json_tricks
+  - jupyter
+  - matplotlib
+  - numpy
+  - parquet-tools
+  - pyccl
+  - python
+  - rclone
+  - scipy
+prefix: /hpc/group/cosmology/nlc38/anaconda3/envs/dp2_smhm
