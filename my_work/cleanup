@@ -1,0 +1,4 @@
+Cacciato_HOD.ipynb is no longer relevant. The best codes are implemented in cacciato_hod. Use that to implement further tasks.
+delete Cacciato_HOD.ipynb by verifying no useful information is lost.
+
+Mainly I just want to preserve the demos of cosmological terms. HODs/CLFs are not well implemented and verified against Cacciato+13 plots in cacciato_hod.

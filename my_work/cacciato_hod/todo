@@ -1,0 +1,12 @@
+Test for consistent usage of halo mass in Msun in the HOD model implementation,
+at the level of multiplying HMF and getting same number of satellites and
+centrals. 
+Compare this with the numbers obtained from the Msun/h unit implementation.
+
+- The hod.py file should remain independent of the cosmological parameters.
+- It would be appropriate to separate out cosmology dependent quantities in a different file.
+- to account for all the h-factors, adjust h-factors inside hod.py
+- This h agnostic file would therefore be general and remain applicable to any
+  definition of mass. And you would just have to adjust these choices either in
+  HOD parameters or cosmology dependent scripts.
+
